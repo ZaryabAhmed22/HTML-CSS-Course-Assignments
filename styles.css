@@ -67,10 +67,14 @@ h1 {
   background-color: peachpuff;
 }
 
-@media (max-width: 776px) {
+@media (max-width: 767px) {
   .col-sm-1 {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 40px auto;
+    padding: 0;
+  }
+
+  .col-sm-1:nth-child(2) {
+    padding: 0;
   }
 }
