@@ -25,15 +25,20 @@ h1 {
   border: 2px solid #000000;
   background-color: rgb(184, 182, 182);
 }
+
 .col-lg-4 {
   width: 33.33%;
   float: left;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   /* margin-left: 10px; */
 }
 
 .col-lg-4:nth-child(2) {
   padding-left: 20px;
+}
+
+.col-lg-4:last-child {
+  padding-left: 10px;
 }
 
 .col-lg-4:fist-child {
