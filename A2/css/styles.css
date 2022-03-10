@@ -1,7 +1,58 @@
-.row {
-  margin-bottom: 15px;
+* {
+  box-sizing: border-box;
 }
-.row > div {
-  border: 2px solid red;
-  background-color: gray;
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: white;
+  background-color: white;
+}
+
+.navbar-nav > li > a {
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px; */
+  border-bottom: 1px solid rgb(211, 212, 212);
+  text-align: center;
+  cursor: pointer;
+}
+.navbar {
+  border: none;
+  margin: 0;
+}
+.navbar-header {
+  padding-bottom: 10px;
+}
+.navbar-brand h1 {
+  margin: 0 0 20px;
+}
+
+.navbar-header button {
+  margin-top: 15px;
+}
+.main-heading {
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.menu-item {
+  background-color: rgb(211, 212, 212);
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 20px;
+}
+
+.menu-item h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.menu-item p {
+  font-size: 16px;
+}
+
+/* media queries */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
 }
